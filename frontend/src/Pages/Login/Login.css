@@ -1,0 +1,214 @@
+.login-page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+}
+
+.sub-login {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 30%;
+  box-shadow: 11px 12px 13x 13px rgb(207, 207, 207);
+  /* padding-top: 10px; */
+  border-radius: 30px;
+  background-color: grey;
+}
+
+img {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  height: 55px;
+  width: 40px;
+}
+
+.image_container {
+  align-items: center;
+  display: flex;
+}
+
+.login_header {
+  margin-top: 10px;
+}
+
+input {
+  width: 330px;
+  height: 40px;
+  border-radius: 16px;
+  box-shadow: inset 0px 0px 25px 0px rgb(189, 180, 180);
+  border: none;
+  outline: none;
+  background-color: #fff;
+  margin-top: 20px;
+  font-size: 18px
+}
+
+.icon {
+  height: 55px;
+  width: 35px;
+  position: absolute;
+  padding: 32px 0 0 30px;
+}
+
+.name,
+.pass {
+  padding-left: 60px;
+}
+
+.login_button {
+  width: 330px;
+  height: 40px;
+  background-color: rgb(28, 166, 212);
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login_header h3 {
+
+  font-size: 26px;
+}
+
+.login_header p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.log-register {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.login_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginRegisterButton {
+  padding: 0.2rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(28, 166, 212);
+  color: #000;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width:700px) {
+  .login-page {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0 0 0;
+  }
+
+  .sub-login {
+    display: flex;
+    justify-content: center;
+    height: 84vh;
+    width: 100vw;
+    border-radius: 0;
+    margin-top: -90px;
+    background-color: rgb(255, 239, 215);
+
+  }
+
+  img {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    height: 95px;
+    width: 75px;
+  }
+
+  .image_container {
+    align-items: center;
+    display: flex;
+
+  }
+
+  .login_header {
+    margin-top: 20px;
+  }
+
+  input {
+    width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 25px 0px rgb(189, 180, 180);
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin-top: 40px;
+    font-size: 18px
+  }
+
+  .icon {
+    height: 55px;
+    width: 35px;
+    position: absolute;
+    padding: 55px 0 0 30px;
+  }
+
+  .name,
+  .pass {
+    padding-left: 60px;
+  }
+
+  .login_button {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(28, 166, 212);
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  .login_header h3 {
+
+    font-size: 26px;
+  }
+
+  .login_header p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .log-register {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .login_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginRegisterButton {
+    padding: 0.2rem 1rem;
+    border: none;
+    /* border-radius: 20px; */
+    background-color: rgb(179, 184, 185);
+    color: #000;
+  }
+
+  .link {
+    text-decoration: underline;
+    color: #000;
+  }
+}
